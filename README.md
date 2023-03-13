@@ -12,7 +12,7 @@ You can change the third line to match your CUDA version from [here](https://pyt
 
 ## Run
 - Download the [E2BC](https://drive.google.com/file/d/1Ut-42xrJ38G55hQ52qrmSLxYkc_KwBFF/view?usp=share_link) model and move it to model folder
-- Download an example file [Doraemon.aedat4](https://drive.google.com/file/d/1Ut-42xrJ38G55hQ52qrmSLxYkc_KwBFF/view?usp=share_link) model and move it to data folder
+- Download an example file [Doraemon.aedat4](https://drive.google.com/file/d/1Ut-42xrJ38G55hQ52qrmSLxYkc_KwBFF/view?usp=share_link) and move it to data folder
 
 
 ## Dataset: T-UP ([Download link](https://drive.google.com/drive/folders/1l1LL6GvdxdaOD-OBfGpoWIUygPwthjX6?usp=share_link))
@@ -104,6 +104,8 @@ You can change the third line to match your CUDA version from [here](https://pyt
 </table>
 
 Read data:
+
+
 Install dv:
 ```
 pip install dv
