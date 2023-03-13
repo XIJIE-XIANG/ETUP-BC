@@ -89,11 +89,13 @@
 </table>
 
 Read data:
-'''
-pip install dv
-'''
 
-'''
+'
+pip install dv
+'
+
+
+'
 import numpy as np
 from dv import AedatFile
 
@@ -103,4 +105,4 @@ from dv import AedatFile
         aps = [packet for packet in f['frames']]
 
 
-'''
+'
