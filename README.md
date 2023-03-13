@@ -1,6 +1,21 @@
 # Events Temporal Up-sampling from H-FPS Brightness Changes Estimation
 
-## Dataset: T-UP ([Download link](https://drive.google.com/drive/folders/1l1LL6GvdxdaOD-OBfGpoWIUygPwthjX6?usp=share_link)))
+## Install
+```
+conda create -n ETUP
+conda activate ETUP
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+pip install dv, opence-python, numpy
+```
+You can change the third line to match your CUDA version from [here](https://pytorch.org/get-started/locally/). Please make sure PyTorch >= 1.0.
+
+
+## Run
+- Download the [E2BC](https://drive.google.com/file/d/1Ut-42xrJ38G55hQ52qrmSLxYkc_KwBFF/view?usp=share_link) model and move it to model folder
+- Download an example file [Doraemon.aedat4](https://drive.google.com/file/d/1Ut-42xrJ38G55hQ52qrmSLxYkc_KwBFF/view?usp=share_link) model and move it to data folder
+
+
+## Dataset: T-UP ([Download link](https://drive.google.com/drive/folders/1l1LL6GvdxdaOD-OBfGpoWIUygPwthjX6?usp=share_link))
 
 <table>
     <thead>
