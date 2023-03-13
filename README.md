@@ -89,12 +89,12 @@
 </table>
 
 Read data:
-
+Install dv:
 ```
 pip install dv
 ```
 
-
+Read events and APS:
 ```python
 import numpy as np
 from dv import AedatFile
