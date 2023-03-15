@@ -115,7 +115,7 @@ def inter_events_chg(events, chg_image, divide=5):
     events_2D_off_TV, noise_off = TV_3D(events_2D_off)
 
     idx_on_t, idx_on_y, idx_on_x = np.where(events_2D_on_TV > 0.1 * np.max(events_2D_on_TV))
-    idx_off_t, idx_off_y, idx_off_x = np.where(events_2D_off_TV < -0.1 * np.min(events_2D_off_TV))
+    idx_off_t, idx_off_y, idx_off_x = np.where(events_2D_off_TV < 0.1 * np.min(events_2D_off_TV))
 
     mask_on = np.zeros_like(events_2D_on)
     mask_on[idx_on_t, idx_on_y, idx_on_x] = 1
