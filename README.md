@@ -122,10 +122,10 @@ Read events and APS:
 import numpy as np
 from dv import AedatFile
 
-    with AedatFile(file_path) as f:
-        sparse_events = np.hstack([packet for packet in f['events'].numpy()])
-        dense_events = np.hstack([packet for packet in f['events_1'].numpy()])
-        aps = [packet for packet in f['frames']]
+with AedatFile(file_path) as f:
+    sparse_events = np.hstack([packet for packet in f['events'].numpy()])
+    dense_events = np.hstack([packet for packet in f['events_1'].numpy()])
+    aps = [packet for packet in f['frames']]
 
 
 ```
